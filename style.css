@@ -13,6 +13,13 @@ body {
     width: 130px;
 }
 
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
 .main {
   flex: 1;
 }
@@ -32,7 +39,7 @@ footer {
 }
 
 .contact {
-  text-align: left;
+  text-align: center;
   color: midnightblue;
   display: flex;
   color: black;

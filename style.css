@@ -5,19 +5,19 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 95vh;
-
 }
 
 .logo {
-    height: 60px;
-    width: 130px;
+  height: 60px;
+  width: 130px;
 }
 
 @media (max-width: 600px) {
-    .footer {
-        flex-direction: column;
-        gap: 0px;
-    }
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 }
 
 .main {
@@ -34,15 +34,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  
 }
 
 .contact {
-  text-align: center;
   color: midnightblue;
   display: flex;
-  color: black;
+  align-items: center;
+  gap: 15px;
+  font-style: italic;
 }
 
 .tile-image {
@@ -70,7 +69,6 @@ footer {
 @media (max-width: 680px) {
   .logo {
     width: 100px;
-    
   }
 
   h1 {
